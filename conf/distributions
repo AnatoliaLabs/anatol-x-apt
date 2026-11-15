@@ -1,0 +1,8 @@
+Origin: Anatol-X
+Label: Anatol-X
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+SignWith: 5C4945D31E22475E
