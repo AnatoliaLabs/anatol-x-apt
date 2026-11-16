@@ -1,3 +1,31 @@
+Package: anatolium
+Version: 0.4.1-0.3~faz2
+Architecture: amd64
+Maintainer: Anatolia Labs <anatoliaosf@proton.me>
+Installed-Size: 367310
+Homepage: https://github.com/AnatoliaLabs
+Depends: fontconfig, hicolor-icon-theme, libatk-bridge2.0-0t64, libdrm2, libgbm1, libwayland-client0, libwayland-egl1, libxshmfence1, zlib1g
+Recommends: libavcodec63 | libavcodec62 | libavcodec61
+Provides: www-browser, gnome-www-browser
+Priority: optional
+Section: web
+Filename: pool/main/a/anatolium/anatolium_0.4.1-0.3~faz2_amd64.deb
+Size: 101440404
+SHA512: d5c0bfa73f9d569a509e71b371f43a3e3d412d8bacb18e53474cfe6f314e3e1b3bf2bf4cce7414dfd1bde153a81b71372f30b622bd81236758320c4245d2ee51
+SHA256: 917444e0f24529eb905efd296d2637711f1fd02ec8f424421de88ee67628a31b
+SHA1: 1bae36244d546e753138c448f79eabc470c30b46
+MD5sum: d59bcea495c0961ba23519222adb17f1
+Description: Anatolia Labs web browser based on Firefox ESR
+ Anatolium, Anatolia Labs'in Firefox ESR motoru üzerine kurulu web
+ tarayıcısıdır. Mozilla'nın resmî ESR 153.6.0 ikilisi değiştirilmeden
+ kullanılır; üzerine Anatolium'un kendi arayüzü eklenir: iki satırlı veya
+ tek satırlı gezinme düzeni, on renk paletli tema motoru, komut paleti,
+ çalışma alanları ve yerel başlangıç sayfası.
+ .
+ Anatolium is a web browser built on the unmodified official Mozilla Firefox
+ ESR 153.6.0 binary with an original interface layer. The built-in updater is
+ disabled; security updates arrive as a new tested Anatolium package.
+
 Package: ax-center
 Version: 0.6.3
 Architecture: all
