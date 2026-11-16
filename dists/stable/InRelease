@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Anatol-X
+Label: Anatol-X
+Suite: stable
+Codename: stable
+Version: 1.0
+Date: Mon, 16 Nov 2026 06:43:36 UTC
+Architectures: amd64
+Components: main
+MD5Sum:
+ 8ed70f4a5bde77e1081993a76b596423 1153 main/binary-amd64/Packages
+ 82210d33d304e3e54a1a7329cf2a16c7 791 main/binary-amd64/Packages.gz
+ 5514c458019287e12ccaf7146e7c2323 98 main/binary-amd64/Release
+SHA1:
+ 48e74f49f969044fcfee9ca944e68e04410dfb1a 1153 main/binary-amd64/Packages
+ e608051e78b51b374f1d8ddf1a3e5dcc98b623c4 791 main/binary-amd64/Packages.gz
+ 75ae13831f8b50857bf839044c28fd5c326bfe8b 98 main/binary-amd64/Release
+SHA256:
+ d2c5381dd3a16aeb6a27a0e5b60fd578cb54b17a23a64e1dd4011950f6837be0 1153 main/binary-amd64/Packages
+ d27e75a3d234cfc00d72a40eed8ce507952dddb8f455e66f9a0dc09de643fa0e 791 main/binary-amd64/Packages.gz
+ 066c9d35a2c28a43ef5c01c5f076030c4b0a8eb248a4c46cb0e5943411b1f8f1 98 main/binary-amd64/Release
+SHA512:
+ dee6ca60f755456fd497b89e12cd5ff624486b9a81d14ecdd3bf4e8ba9b12d5a26fdcdda26ae95b28e0ec51639a440727135c9935adc3d4d4743213f26d1f7e2 1153 main/binary-amd64/Packages
+ 63fec102cbe71de1da89655b71fbaea56f0d442e7ea3a23628e3806ade3e3b723814614fb43e92160c78baa5954876bea6894a794a71acec30a8be20b0507788 791 main/binary-amd64/Packages.gz
+ 58d386676ec215d13cb29fce0a6a566b38af8bcefa3fb33a6f56b3803b8ee77c38ecfe4ad1d737f1a44d72504f9e24221ddd9117c5b5c1178cb7ef7201fa35fb 98 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEqD/ynR59XNc94OJWMJQ4QqZFSgEFAmr6phkACgkQMJQ4QqZF
+SgG53w//Y+KiKpAIy+BOuCDu6jGjiV+30BlghPTmcnsB0NKXmBMFqO+76oeOfYXD
+gD2B0Ri9Yj56+5jUDVV7Jwq42+F3dO1hcZ+O3wyXNw2kxbr2tCytq503iHL3zZBP
+3ToVcvaZiP1GBvTnLMbc7RNSlN1hbrMvK5hJIpXTbn0cWkbzKWII0ynavOx9/4FY
+KP4H4jETyDLAgabPqSiGBDycAVgshVIUBgkuhtl4ioZ5vkh6mmlIuXppsM8y2QYX
+OLVdfPDPvlg3BlufC/ky9SBJSGdj7vor5j8AuFvWk4vrjdgcH/KD6K6nfOWFN/ia
+cfdohNzxqNiH1jGgpo18x2Kl4agOlc3giaW+oql1HYGwoMQT2HKmVk3dtlqWCyY3
+ltFmPoxBTJKt3v10wdrHRci9jgp1zTGOu8xAUOVgBfIQZ4MdL/XFm9rxz21BRxje
+q+CnDzO3T4HjJpWi6DSFT7i5wUv0y5XDiDfJYXsfFSHGEW1lLO5v+AH1qpQUocXl
+3MteOC7bNWvT95vr6GQOHa9/c8wv923oHU4gcYvFXj1fhkw7XUfCAorH6jQWiCex
+cJ8ehowNpcYcxAdMfLn/i+E8ZqFSDswxLVylu67aNeom7Qnw5waBrH+oX9P9jijx
+Qfc2Zk2yOfWN8VLtIab+0RFolvhQvyCdWxENlqZkgl29fwoiz40=
+=nvsK
+-----END PGP SIGNATURE-----

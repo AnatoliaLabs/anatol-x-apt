@@ -1,0 +1,25 @@
+Package: ax-center
+Version: 0.6.3
+Architecture: all
+Maintainer: Anatol-X <paket@anatol-x.org>
+Installed-Size: 453
+Depends: python3 (>= 3.11), python3-pyqt6, pkexec, polkitd
+Recommends: timeshift, power-profiles-daemon, flatpak, nala, grub-btrfs, btrfs-progs
+Suggests: gnome-disk-utility
+Homepage: https://anatol-x.org
+Priority: optional
+Section: admin
+Filename: pool/main/a/ax-center/ax-center_0.6.3_all.deb
+Size: 92960
+SHA512: 74999300fee1f59be2f6056472c3e30dd4fd76075cf66b84dd5a2f6d9459cd320801f9a384562f0fce6c73031dd902bdf9fee2cb11d66c2ca8850aa7f494f0e8
+SHA256: a407e196344862d5cd24377a6f43f1ce095c055f4f758dd4236137ce662bf12b
+SHA1: 84cc5491f32133fe1cb957ea80f0d7434df2a5bb
+MD5sum: 05188bcd28d85072940b44e8be3e8f0a
+Description: Anatol-X denetim masası
+ AX-Center, Anatol-X'in tek denetim masasıdır: adaptif modlar, Timeshift
+ yedekleri, sürücü tespiti, güncellemeler ve sistem ayarları tek arayüzde.
+ .
+ Arayüz yetkisiz çalışır; root gereken işler /usr/libexec/anatol-helper
+ üzerinden polkit ile ve dar bir komut listesiyle yapılır. Aynı işlevler
+ anatol-context ve anatol-snapshot komutlarıyla terminalden de kullanılabilir.
+
