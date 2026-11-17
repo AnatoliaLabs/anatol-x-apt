@@ -6,25 +6,25 @@ Label: Anatol-X
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Tue, 17 Nov 2026 12:05:22 UTC
+Date: Tue, 17 Nov 2026 12:42:12 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- 0ece8114cfff22c79c8699fd2cdc615f 8976 main/binary-amd64/Packages
- a27630f28966539277e0008cf4074627 4099 main/binary-amd64/Packages.gz
+ 60179482ee9e152da85799ff5aba876f 8977 main/binary-amd64/Packages
+ 4bd336c98ea62c44195202a362a84ad4 4097 main/binary-amd64/Packages.gz
  5514c458019287e12ccaf7146e7c2323 98 main/binary-amd64/Release
 SHA1:
- 189995763f26b58e717c18bd02a44886eb5606f1 8976 main/binary-amd64/Packages
- f06b2ec242e0f5d281f564c174e4ea99c9b85a27 4099 main/binary-amd64/Packages.gz
+ 2359556e34acf7002e45bbdd82d5ceb7eecfb23f 8977 main/binary-amd64/Packages
+ 515d8bee683fb59b383fdf0e1126062dfa5ed486 4097 main/binary-amd64/Packages.gz
  75ae13831f8b50857bf839044c28fd5c326bfe8b 98 main/binary-amd64/Release
 SHA256:
- 5a07e3113a6ddf4f6171a55c3f48aa26ef9f3a28084b5e73fd16d8f0f1ea0638 8976 main/binary-amd64/Packages
- 3ae75a037387c6d7edf7879764d0c1946e67490fd9b595f5a90a4ab3eee22de3 4099 main/binary-amd64/Packages.gz
+ cc2d85906366710f52d2414e5eeef11cc4bf842599bc8f9c207849d45292e0f1 8977 main/binary-amd64/Packages
+ 0b5fa9cdcc1f68a218a645493e6b50a94d5c55733478701341362acab56b952d 4097 main/binary-amd64/Packages.gz
  066c9d35a2c28a43ef5c01c5f076030c4b0a8eb248a4c46cb0e5943411b1f8f1 98 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTjN6v+kMMS+NpzU8KAJn0AKBrKiwUCavxDAgAKCRCAJn0AKBrK
-iwbCAQCfP1SoR4FxuLhKirozBgHpOPfYDriAba+f0n21hcwLGQD/f6afLuR57FY8
-WIg0F7o8LhBxjwTpIb4HfQ8lHZFHPQE=
-=jsuB
+iHUEARYKAB0WIQTjN6v+kMMS+NpzU8KAJn0AKBrKiwUCavxLpAAKCRCAJn0AKBrK
+i8PBAQCP/tfVoGzcw61HdSMfOMfMba0umgf+zmyuhYJK3u/7/QEA8KMqV6YsojxE
+D6250dFHo0cXhVTPr87pQPBT8vUa7Q8=
+=F/K2
 -----END PGP SIGNATURE-----

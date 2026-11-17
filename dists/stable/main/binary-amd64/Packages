@@ -26,20 +26,20 @@ Description: Anatolia Labs web browser based on Firefox ESR
  disabled; security updates arrive as a new tested Anatolium package.
 
 Package: anatolx-desktop
-Version: 1.0.0~pre1
+Version: 1.0.0~pre2
 Architecture: all
 Installed-Size: 812
 Maintainer: Anatolia Labs <anatoliaosf@proton.me>
 Homepage: https://github.com/AnatoliaLabs
-Depends: anatolx-system (>= 1.0.0~pre1), anatolx-keyring (>= 1.0.0~pre1), kde-plasma-desktop, plasma-workspace, sddm, sddm-theme-breeze, x11-xkb-utils, console-setup
+Depends: anatolx-system (>= 1.0.0~pre2), anatolx-keyring (>= 1.0.0~pre2), kde-plasma-desktop, plasma-workspace, sddm, sddm-theme-breeze, x11-xkb-utils, console-setup
 Recommends: anatolium, ax-center, anatolx-welcome, cobblestone, forge, nexo, dolphin, konsole, ark, kate, kde-spectacle, gwenview, qt-style-kvantum, plasma-discover, plasma-discover-backend-flatpak, flatpak, pipewire-audio, network-manager, power-profiles-daemon
 Priority: optional
 Section: metapackages
-Filename: pool/main/a/anatolx-desktop/anatolx-desktop_1.0.0~pre1_all.deb
-Size: 640620
-SHA256: c804d1d17b24abfc72bcf22c0b41a223249900d33a6deefb092bc8a19ff4d03f
-SHA1: 4e321f0c8c8edf269941f9ccb004f1dbed660d9c
-MD5sum: 39739ae1ad41430391a666b5f5752063
+Filename: pool/main/a/anatolx-desktop/anatolx-desktop_1.0.0~pre2_all.deb
+Size: 640624
+SHA256: 426bd686d87fd4844f64454e093536bd7ded68c8bcefca0ac4f28988d9a7b07f
+SHA1: d97c485283b422c39d9b5b88c4cbc1ae92766e8e
+MD5sum: 10f19d3df924069fedccadb79981073d
 Description: Anatol-X KDE Plasma 6 masaüstü ortamı meta-paketi ve varsayılanları
  Anatol-X masaüstü ortamının varsayılan yapılandırmalarını (/etc/xdg,
  KInfoCenter sürüm bilgisi, SDDM Breeze yapılandırması, başlat menüsü
@@ -49,7 +49,7 @@ Description: Anatol-X KDE Plasma 6 masaüstü ortamı meta-paketi ve varsayılan
  bu paket üzerinden mevcut kullanıcılara ulaştırılır.
 
 Package: anatolx-keyring
-Version: 1.0.0~pre1
+Version: 1.0.0~pre2
 Architecture: all
 Installed-Size: 36
 Maintainer: Anatolia Labs <anatoliaosf@proton.me>
@@ -57,11 +57,11 @@ Homepage: https://github.com/AnatoliaLabs/anatol-x-apt
 Depends: gpgv | gpg, ca-certificates
 Priority: important
 Section: misc
-Filename: pool/main/a/anatolx-keyring/anatolx-keyring_1.0.0~pre1_all.deb
-Size: 4652
-SHA256: 2d0e691c7b9b0588c99bc0cc535edb44513b47da60f5c12140c99b09b9c973c1
-SHA1: 02d68f9965d32e5986f0e99157517a1b50d88bf5
-MD5sum: 1f1eeffc2651cf3907115cc56f406d3d
+Filename: pool/main/a/anatolx-keyring/anatolx-keyring_1.0.0~pre2_all.deb
+Size: 4644
+SHA256: 01bb034e1e59b17bb9eb421d63fe4d1f9539b64f28f6206de32b2760e0ef160e
+SHA1: 5b4be8456d1d041867eac2070e494e6cacd03876
+MD5sum: ddb7c13d11ac223aa198ad6ae85f9ec4
 Description: Anatol-X resmi APT deposu GPG anahtarlığı ve kaynak tanımı
  Anatol-X Linux dağıtımının resmi paket deposu (anatol-x-apt) için
  imzalama anahtarını (/usr/share/keyrings/anatol-x-archive-keyring.gpg)
@@ -70,20 +70,20 @@ Description: Anatol-X resmi APT deposu GPG anahtarlığı ve kaynak tanımı
  üzerinden kullanıcılara ulaştırılır.
 
 Package: anatolx-system
-Version: 1.0.0~pre1
+Version: 1.0.0~pre2
 Architecture: all
-Installed-Size: 156
+Installed-Size: 244
 Maintainer: Anatolia Labs <anatoliaosf@proton.me>
 Homepage: https://github.com/AnatoliaLabs
-Depends: anatolx-keyring (>= 1.0.0~pre1), base-files, apt, unattended-upgrades
+Depends: anatolx-keyring (>= 1.0.0~pre2), base-files, apt, unattended-upgrades
 Recommends: nala, zram-tools, timeshift, btrfs-progs, power-profiles-daemon, network-manager, console-setup, x11-xkb-utils
 Priority: important
 Section: admin
-Filename: pool/main/a/anatolx-system/anatolx-system_1.0.0~pre1_all.deb
-Size: 6236
-SHA256: 9033fb2f00797b864623efe524b21f47d33b93d1f6924fafbce7f6cee29dd28d
-SHA1: 1df6ec949ff54101bea92fcf680fea47ee1c04dd
-MD5sum: 2c38f727da3323ef84d86d7c09678e4f
+Filename: pool/main/a/anatolx-system/anatolx-system_1.0.0~pre2_all.deb
+Size: 71492
+SHA256: 5240db2528a15ba39e8d9b69818b89098374ab876bd47ca42beda36834814baa
+SHA1: d1c5c92de42f60de74acaf500ff4647f13ec45a3
+MD5sum: 8569b04dc0851e5dac547cdb9a0b5de9
 Description: Anatol-X çekirdek sistem yapılandırması, APT önceliği ve sürüm yönetimi
  Anatol-X Linux dağıtımının çekirdek sistem katmanıdır:
   - Dağıtım sürüm kimliğini (/etc/os-release, /usr/lib/os-release) dpkg-divert
