@@ -37,9 +37,9 @@ Priority: optional
 Section: metapackages
 Filename: pool/main/a/anatolx-desktop/anatolx-desktop_1.0.0~pre1_all.deb
 Size: 640620
-SHA256: edbdc5a89a758ab3e901d5abd6694e4a916cf53f7d9f659c3f9b980f93c9523e
-SHA1: a58e50ce62979df4ddde4507efd9a10f3c0e0abf
-MD5sum: cdb3a2d99a381fc2b80094b866579f0d
+SHA256: c804d1d17b24abfc72bcf22c0b41a223249900d33a6deefb092bc8a19ff4d03f
+SHA1: 4e321f0c8c8edf269941f9ccb004f1dbed660d9c
+MD5sum: 39739ae1ad41430391a666b5f5752063
 Description: Anatol-X KDE Plasma 6 masaüstü ortamı meta-paketi ve varsayılanları
  Anatol-X masaüstü ortamının varsayılan yapılandırmalarını (/etc/xdg,
  KInfoCenter sürüm bilgisi, SDDM Breeze yapılandırması, başlat menüsü
@@ -58,10 +58,10 @@ Depends: gpgv | gpg, ca-certificates
 Priority: important
 Section: misc
 Filename: pool/main/a/anatolx-keyring/anatolx-keyring_1.0.0~pre1_all.deb
-Size: 4644
-SHA256: ffbf90eb5fc89e3884d1e01f401987a734263f1f9c8b12888b4cd3dad3b0298c
-SHA1: 9c400033959b4d54a69c746f1186b1b3728e77d2
-MD5sum: f199e46e8fafd0bd2b5d244f38574fee
+Size: 4652
+SHA256: 2d0e691c7b9b0588c99bc0cc535edb44513b47da60f5c12140c99b09b9c973c1
+SHA1: 02d68f9965d32e5986f0e99157517a1b50d88bf5
+MD5sum: 1f1eeffc2651cf3907115cc56f406d3d
 Description: Anatol-X resmi APT deposu GPG anahtarlığı ve kaynak tanımı
  Anatol-X Linux dağıtımının resmi paket deposu (anatol-x-apt) için
  imzalama anahtarını (/usr/share/keyrings/anatol-x-archive-keyring.gpg)
@@ -80,10 +80,10 @@ Recommends: nala, zram-tools, timeshift, btrfs-progs, power-profiles-daemon, net
 Priority: important
 Section: admin
 Filename: pool/main/a/anatolx-system/anatolx-system_1.0.0~pre1_all.deb
-Size: 6232
-SHA256: fbb99b17e3b957e01c287336056275ca82b2c22d079b24082535d161121dd7ae
-SHA1: de65acfe06cefec317af514712902ecbfe4d999a
-MD5sum: 2e14adfe7ad2890c3a6db1d5755d25b3
+Size: 6236
+SHA256: 9033fb2f00797b864623efe524b21f47d33b93d1f6924fafbce7f6cee29dd28d
+SHA1: 1df6ec949ff54101bea92fcf680fea47ee1c04dd
+MD5sum: 2c38f727da3323ef84d86d7c09678e4f
 Description: Anatol-X çekirdek sistem yapılandırması, APT önceliği ve sürüm yönetimi
  Anatol-X Linux dağıtımının çekirdek sistem katmanıdır:
   - Dağıtım sürüm kimliğini (/etc/os-release, /usr/lib/os-release) dpkg-divert
