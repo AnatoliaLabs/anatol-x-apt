@@ -3,22 +3,18 @@ Label: Anatol-X
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Mon, 16 Nov 2026 07:05:03 UTC
+Date: Tue, 17 Nov 2026 12:04:18 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- d9623983835d54df1fd99aa432006e22 2626 main/binary-amd64/Packages
- 8c08a2a11c8d82130150657b067cea8d 1513 main/binary-amd64/Packages.gz
+ 24364e3935fb52847028bb9b539f6dad 8976 main/binary-amd64/Packages
+ bc213481eb9f280857dccaaa620da859 4101 main/binary-amd64/Packages.gz
  5514c458019287e12ccaf7146e7c2323 98 main/binary-amd64/Release
 SHA1:
- f8781962807b09cf7b6653693ea8d17e367cf61e 2626 main/binary-amd64/Packages
- cbb5e160147086f3d664898a023b127a3c66aceb 1513 main/binary-amd64/Packages.gz
+ 39b571af683a94302ca833ec24122f5b943e7224 8976 main/binary-amd64/Packages
+ 412497ae71502f0fd1aa6836d6ad42dfbb45b0ad 4101 main/binary-amd64/Packages.gz
  75ae13831f8b50857bf839044c28fd5c326bfe8b 98 main/binary-amd64/Release
 SHA256:
- a657b79b5abad170c36ebf17d4a90bb8940aae2d88208f0a3c93cff0f706c967 2626 main/binary-amd64/Packages
- 03308e6d4758bd77b39526219afe2e978ddb59ca3026cd447889acb8657fc4ca 1513 main/binary-amd64/Packages.gz
+ 2b3465b087dde70ca8c98f1e553df00853bfdfada879657b80fff57474ab0a90 8976 main/binary-amd64/Packages
+ 135548f09ccbc27881cd010b4daf6b7b69835b58fe58e317a9a2dab10ba70f80 4101 main/binary-amd64/Packages.gz
  066c9d35a2c28a43ef5c01c5f076030c4b0a8eb248a4c46cb0e5943411b1f8f1 98 main/binary-amd64/Release
-SHA512:
- 9f803de8e5cb91084ed92e8f496deb4c4073be9bce2ee78b50c375fe2c0654454fac2b710ea7e394c55e59460b64adb948561af0c72d458483ddc2e139d070fd 2626 main/binary-amd64/Packages
- dc59dc095f05d661420ce9ed727680f33a4270bd2f6af3c7a08ca45fe03697dac7a5f93158e50697403ee40dc4738b2e6e6afdb7503568c837bda73b94b7f150 1513 main/binary-amd64/Packages.gz
- 58d386676ec215d13cb29fce0a6a566b38af8bcefa3fb33a6f56b3803b8ee77c38ecfe4ad1d737f1a44d72504f9e24221ddd9117c5b5c1178cb7ef7201fa35fb 98 main/binary-amd64/Release

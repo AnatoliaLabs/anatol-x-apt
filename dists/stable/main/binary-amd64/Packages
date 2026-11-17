@@ -11,7 +11,6 @@ Priority: optional
 Section: web
 Filename: pool/main/a/anatolium/anatolium_0.4.1-0.3~faz2_amd64.deb
 Size: 101440404
-SHA512: d5c0bfa73f9d569a509e71b371f43a3e3d412d8bacb18e53474cfe6f314e3e1b3bf2bf4cce7414dfd1bde153a81b71372f30b622bd81236758320c4245d2ee51
 SHA256: 917444e0f24529eb905efd296d2637711f1fd02ec8f424421de88ee67628a31b
 SHA1: 1bae36244d546e753138c448f79eabc470c30b46
 MD5sum: d59bcea495c0961ba23519222adb17f1
@@ -26,6 +25,88 @@ Description: Anatolia Labs web browser based on Firefox ESR
  ESR 153.6.0 binary with an original interface layer. The built-in updater is
  disabled; security updates arrive as a new tested Anatolium package.
 
+Package: anatolx-desktop
+Version: 1.0.0~pre1
+Architecture: all
+Installed-Size: 812
+Maintainer: Anatolia Labs <anatoliaosf@proton.me>
+Homepage: https://github.com/AnatoliaLabs
+Depends: anatolx-system (>= 1.0.0~pre1), anatolx-keyring (>= 1.0.0~pre1), kde-plasma-desktop, plasma-workspace, sddm, sddm-theme-breeze, x11-xkb-utils, console-setup
+Recommends: anatolium, ax-center, anatolx-welcome, cobblestone, forge, nexo, dolphin, konsole, ark, kate, kde-spectacle, gwenview, qt-style-kvantum, plasma-discover, plasma-discover-backend-flatpak, flatpak, pipewire-audio, network-manager, power-profiles-daemon
+Priority: optional
+Section: metapackages
+Filename: pool/main/a/anatolx-desktop/anatolx-desktop_1.0.0~pre1_all.deb
+Size: 640620
+SHA256: edbdc5a89a758ab3e901d5abd6694e4a916cf53f7d9f659c3f9b980f93c9523e
+SHA1: a58e50ce62979df4ddde4507efd9a10f3c0e0abf
+MD5sum: cdb3a2d99a381fc2b80094b866579f0d
+Description: Anatol-X KDE Plasma 6 masaüstü ortamı meta-paketi ve varsayılanları
+ Anatol-X masaüstü ortamının varsayılan yapılandırmalarını (/etc/xdg,
+ KInfoCenter sürüm bilgisi, SDDM Breeze yapılandırması, başlat menüsü
+ logosu ve standart uygulama önerilerini) içerir.
+ .
+ Yeni masaüstü bileşenleri veya sistem geneli KDE/GTK ayar güncellemeleri
+ bu paket üzerinden mevcut kullanıcılara ulaştırılır.
+
+Package: anatolx-keyring
+Version: 1.0.0~pre1
+Architecture: all
+Installed-Size: 36
+Maintainer: Anatolia Labs <anatoliaosf@proton.me>
+Homepage: https://github.com/AnatoliaLabs/anatol-x-apt
+Depends: gpgv | gpg, ca-certificates
+Priority: important
+Section: misc
+Filename: pool/main/a/anatolx-keyring/anatolx-keyring_1.0.0~pre1_all.deb
+Size: 4644
+SHA256: ffbf90eb5fc89e3884d1e01f401987a734263f1f9c8b12888b4cd3dad3b0298c
+SHA1: 9c400033959b4d54a69c746f1186b1b3728e77d2
+MD5sum: f199e46e8fafd0bd2b5d244f38574fee
+Description: Anatol-X resmi APT deposu GPG anahtarlığı ve kaynak tanımı
+ Anatol-X Linux dağıtımının resmi paket deposu (anatol-x-apt) için
+ imzalama anahtarını (/usr/share/keyrings/anatol-x-archive-keyring.gpg)
+ ve APT kaynak yapılandırmasını (/etc/apt/sources.list.d/anatol-x.sources)
+ sağlar. Anahtar yenilemeleri veya depo adresi güncellemeleri bu paket
+ üzerinden kullanıcılara ulaştırılır.
+
+Package: anatolx-system
+Version: 1.0.0~pre1
+Architecture: all
+Installed-Size: 156
+Maintainer: Anatolia Labs <anatoliaosf@proton.me>
+Homepage: https://github.com/AnatoliaLabs
+Depends: anatolx-keyring (>= 1.0.0~pre1), base-files, apt, unattended-upgrades
+Recommends: nala, zram-tools, timeshift, btrfs-progs, power-profiles-daemon, network-manager, console-setup, x11-xkb-utils
+Priority: important
+Section: admin
+Filename: pool/main/a/anatolx-system/anatolx-system_1.0.0~pre1_all.deb
+Size: 6232
+SHA256: fbb99b17e3b957e01c287336056275ca82b2c22d079b24082535d161121dd7ae
+SHA1: de65acfe06cefec317af514712902ecbfe4d999a
+MD5sum: 2e14adfe7ad2890c3a6db1d5755d25b3
+Description: Anatol-X çekirdek sistem yapılandırması, APT önceliği ve sürüm yönetimi
+ Anatol-X Linux dağıtımının çekirdek sistem katmanıdır:
+  - Dağıtım sürüm kimliğini (/etc/os-release, /usr/lib/os-release) dpkg-divert
+    ile Debian güncellemelerine karşı korur ve yeni Anatol-X sürümlerine yükseltir.
+  - Anatol-X APT deposuna en yüksek önceliği (Pin-Priority: 995) verir.
+  - SDDM klavye düzeni eşitlemesi, ZRAM, GRUB, Nala ve tek seferlik sistem
+    göç (migration) betiklerini yönetir.
+
+Package: anatolx-welcome
+Version: 0.2.1
+Architecture: all
+Maintainer: Anatol-X community contributors <noreply@example.invalid>
+Depends: python3 (>= 3.9), python3-pyqt6, pkexec
+Priority: optional
+Section: utils
+Filename: pool/main/a/anatolx-welcome/anatolx-welcome_0.2.1_all.deb
+Size: 2208164
+SHA256: f8eedfb0f6488a416771ab250f48ed2ffc3993340bba9241ea913b5be853ab97
+SHA1: f6b2877bc0d8c07f15524f0e62d51d2f9840e82e
+MD5sum: 1ff80fcec3c4be6cb9a963cf7902e115
+Description: Anatol-X welcome center with refreshed interface
+ Existing Anatol-X welcome center with a redesigned Qt interface.
+
 Package: ax-center
 Version: 0.6.3
 Architecture: all
@@ -39,7 +120,6 @@ Priority: optional
 Section: admin
 Filename: pool/main/a/ax-center/ax-center_0.6.3_all.deb
 Size: 92960
-SHA512: 74999300fee1f59be2f6056472c3e30dd4fd76075cf66b84dd5a2f6d9459cd320801f9a384562f0fce6c73031dd902bdf9fee2cb11d66c2ca8850aa7f494f0e8
 SHA256: a407e196344862d5cd24377a6f43f1ce095c055f4f758dd4236137ce662bf12b
 SHA1: 84cc5491f32133fe1cb957ea80f0d7434df2a5bb
 MD5sum: 05188bcd28d85072940b44e8be3e8f0a
@@ -50,4 +130,70 @@ Description: Anatol-X denetim masası
  Arayüz yetkisiz çalışır; root gereken işler /usr/libexec/anatol-helper
  üzerinden polkit ile ve dar bir komut listesiyle yapılır. Aynı işlevler
  anatol-context ve anatol-snapshot komutlarıyla terminalden de kullanılabilir.
+
+Package: cobblestone
+Version: 5.2.3
+Architecture: amd64
+Installed-Size: 25364
+Depends: libmpv2, libgtk-3-0, libepoxy0, libglib2.0-0, libstdc++6, libc6 (>= 2.39), xdg-utils, xdg-user-dirs
+Recommends: appstream, xdg-desktop-portal-gtk | xdg-desktop-portal-kde
+Maintainer: C-Stone Labs <cstonelabs@gmail.com>
+Priority: optional
+Section: sound
+Filename: pool/main/c/cobblestone/cobblestone_5.2.3_amd64.deb
+Size: 8237708
+SHA256: 72a675baa24e805b6da2a903407f7ad7a0d36112c39257dcaacfe4d202457096
+SHA1: d7f3b0076146bf73a244e5d478a85db8c852ad0c
+MD5sum: 3086e3ac01f1128f1ec6d649f9f821e8
+Description: Reklamsız, çevrimdışı yerel müzik çalar
+ Cobblestone, yerel müzik arşiviniz için reklamsız ve hesapsız bir
+ oynatıcıdır. MP3, FLAC, OGG/Opus, M4A ve WAV destekler; albüm kapağı
+ okuma/yazma, 10 bant ekolayzır ve MPRIS masaüstü entegrasyonu sunar.
+ .
+ İnternet bağlantısı gerektirmez, hiçbir veri toplamaz.
+
+Package: forge
+Version: 0.1.0
+Architecture: amd64
+Installed-Size: 28017
+Maintainer: FORGE
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: utils
+Filename: pool/main/f/forge/forge_0.1.0_amd64.deb
+Size: 4132736
+SHA256: 6126c3db4dc0c6720113118b3d97c569031b7f3fc25061d4ebf0335d5b810393
+SHA1: 5c196ad0fcd3639c7cd30e0bd7ade7038e82f61a
+MD5sum: 1aa58987a04407720ec297ebfe35bbe5
+Description: FORGE developer workstation foundation
+ (none)
+
+Package: nexo
+Version: 1.11.1-1
+Architecture: all
+Depends: xdg-utils
+Recommends: fonts-dejavu-core, libgl1, chromium | chromium-browser | google-chrome-stable | brave-browser | microsoft-edge | vivaldi-stable | epiphany-browser | firefox | firefox-esr | www-browser
+Installed-Size: 720
+Maintainer: NEXO Developer Team <nexo@example.org>
+Homepage: https://example.org/nexo
+Priority: optional
+Section: games
+Filename: pool/main/n/nexo/nexo_1.11.1-1_all.deb
+Size: 378488
+SHA256: 275ceae59ac9513c7e5023e6d7999d42c291ef84e9f8436f19bf12ae5cb4817a
+SHA1: 51f1dc2542fdbd0d70a609462f6de5519ae57597
+MD5sum: cd09751341dccf8177479ca3fb8e37d1
+Description: Uzay savunma arcade oyunu
+ Evrenin son enerji çekirdeğini koruduğunuz hızlı tempolu bir arcade
+ savunma oyunudur. Çekirdeğin etrafında dönen kalkanı yönlendirip
+ göktaşlarını sektirin, ÖZ kazanın, atölyede güçlenin.
+ .
+ Özellikler:
+  - 17 göktaşı türü, 4 oyun modu, 4 boss tipi
+  - 19 kalıcı yükseltme, 7 kalkan teması, 30 başarım
+  - 9 güçlendirme, NOVA patlaması, kombo ve ateş modu
+  - Fare, klavye ve dokunmatik destekli; tamamen çevrimdışı
+ .
+ Oyun HTML5 Canvas ile yazılmıştır ve kurulu bir tarayıcıda uygulama
+ modunda çalışır.
 
